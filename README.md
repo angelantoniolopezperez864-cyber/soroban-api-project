@@ -13,3 +13,26 @@ Además, se desarrolló una **API REST con Node.js (Express)** que permite consu
 ---
 
 ## 🧱 Arquitectura del Proyecto
+
+
+
+
+---
+
+## ⚙️ Tecnologías Utilizadas
+
+- Rust (Smart Contracts)
+- Soroban SDK
+- Stellar Testnet
+- Node.js
+- Express.js
+- CLI Soroban / Stellar
+
+---
+
+## 🧪 Funciones del Smart Contract
+
+```rust
+pub fn sumar(_env: Env, a: i32, b: i32) -> i32
+pub fn multiplicar(_env: Env, a: i32, b: i32) -> i32
+pub fn potencia(_env: Env, base: i32, exp: u32) -> i32
