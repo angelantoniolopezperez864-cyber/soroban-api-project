@@ -125,7 +125,7 @@ curl "http://localhost:3000/potencia?base=3&exp=2"
 <img width="425" height="208" alt="image" src="https://github.com/user-attachments/assets/3e18f73e-a254-4c7f-ab8e-5d8cd7e1735c" />
 
 
-```
+
 7. Resultados
 ```
 La API respondió correctamente a todas las solicitudes realizadas, logrando una integración funcional entre el backend y el contrato inteligente desplegado.
