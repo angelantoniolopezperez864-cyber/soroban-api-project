@@ -40,28 +40,33 @@ pub fn potencia(_env: Env, base: i32, exp: u32) -> i32
 
 
 ## DESARROLLO DEL PROYECTO
-
+```
 1. Clonar repositorio
 git clone https://github.com/angelantoniolopezperez864-cyber/soroban-api-project.git
 cd soroban-api-project
+```
 
 
 2. Compilar contrato
+```
 soroban contract build
-
+```
 
 3. Configurar red
+```
 stellar network add testnet \
 --rpc-url https://soroban-testnet.stellar.org \
 --network-passphrase "Test SDF Network ; September 2015"
-
+```
 
 4. Crear cuenta
+```
 stellar keys generate usuario
 stellar keys fund usuario --network testnet
-
+```
 
 5. Desplegar contrato
+```
 soroban contract deploy \
 --wasm target/wasm32v1-none/release/hello_world.wasm \
 --source usuario \
@@ -111,19 +116,22 @@ Respuesta:
 
 Pruebas desde consola
 curl "http://localhost:3000/potencia?base=3&exp=2"
-
+```
 6. Evidencia en Testnet
+
 <img width="425" height="208" alt="image" src="https://github.com/user-attachments/assets/3e18f73e-a254-4c7f-ab8e-5d8cd7e1735c" />
 
 
 
 7. Resultados
+```
 La API respondió correctamente a todas las solicitudes realizadas, logrando una integración funcional entre el backend y el contrato inteligente desplegado.
 Se comprobó la correcta ejecución de las funciones mediante diferentes métodos de prueba.
-
+```
 8. Conclusiones
+```
 Se logró diseñar e implementar una API REST capaz de consumir un contrato inteligente en la red Stellar mediante Soroban. Esta práctica demuestra cómo integrar tecnologías tradicionales de desarrollo web con soluciones basadas en blockchain.
-   
+   ```
 9. Referencias
 ```
 Stellar Development Foundation. (2024). Soroban smart contracts overview. Recuperado de https://developers.stellar.org/docs/build/smart-contracts/overview
