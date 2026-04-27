@@ -29,6 +29,18 @@ Además, se desarrolló una **API REST con Node.js (Express)** que permite consu
 - CLI Soroban / Stellar
 
 ---
+
+## 🧪 Funciones del Smart Contract
+
+```rust
+pub fn sumar(_env: Env, a: i32, b: i32) -> i32
+pub fn multiplicar(_env: Env, a: i32, b: i32) -> i32
+pub fn potencia(_env: Env, base: i32, exp: u32) -> i32
+```
+
+
+## DESARROLLO DEL PROYECTO
+
 1. Clonar repositorio
 git clone https://github.com/angelantoniolopezperez864-cyber/soroban-api-project.git
 cd soroban-api-project
@@ -105,12 +117,21 @@ curl "http://localhost:3000/potencia?base=3&exp=2"
 
 
 
-## 🧪 Funciones del Smart Contract
+10. Resultados
+La API respondió correctamente a todas las solicitudes realizadas, logrando una integración funcional entre el backend y el contrato inteligente desplegado.
+Se comprobó la correcta ejecución de las funciones mediante diferentes métodos de prueba.
 
-```rust
-pub fn sumar(_env: Env, a: i32, b: i32) -> i32
-pub fn multiplicar(_env: Env, a: i32, b: i32) -> i32
-pub fn potencia(_env: Env, base: i32, exp: u32) -> i32
+11. Conclusiones
+Se logró diseñar e implementar una API REST capaz de consumir un contrato inteligente en la red Stellar mediante Soroban. Esta práctica demuestra cómo integrar tecnologías tradicionales de desarrollo web con soluciones basadas en blockchain.
+
+12. Referencias
+
+Stellar Development Foundation. (2024). Soroban smart contracts overview. Recuperado de https://developers.stellar.org/docs/build/smart-contracts/overview
+Stellar Development Foundation. (2024). Soroban CLI documentation. Recuperado de https://developers.stellar.org/docs/tools/soroban-cli
+Stellar Development Foundation. (2024). Stellar Laboratory (Testnet). Recuperado de https://lab.stellar.org
+Stellar Development Foundation. (2024). Stellar Expert Explorer. Recuperado de https://stellar.expert
+<img width="442" height="497" alt="image" src="https://github.com/user-attachments/assets/dd0d3a49-42f3-494d-b039-4fc0827ae3c0" />
+
 
 
 
