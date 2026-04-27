@@ -117,15 +117,15 @@ curl "http://localhost:3000/potencia?base=3&exp=2"
 
 
 
-10. Resultados
+7. Resultados
 La API respondió correctamente a todas las solicitudes realizadas, logrando una integración funcional entre el backend y el contrato inteligente desplegado.
 Se comprobó la correcta ejecución de las funciones mediante diferentes métodos de prueba.
 
-11. Conclusiones
+8. Conclusiones
 Se logró diseñar e implementar una API REST capaz de consumir un contrato inteligente en la red Stellar mediante Soroban. Esta práctica demuestra cómo integrar tecnologías tradicionales de desarrollo web con soluciones basadas en blockchain.
-
-12. Referencias
-
+   
+9. Referencias
+```
 Stellar Development Foundation. (2024). Soroban smart contracts overview. Recuperado de https://developers.stellar.org/docs/build/smart-contracts/overview
 Stellar Development Foundation. (2024). Soroban CLI documentation. Recuperado de https://developers.stellar.org/docs/tools/soroban-cli
 Stellar Development Foundation. (2024). Stellar Laboratory (Testnet). Recuperado de https://lab.stellar.org
