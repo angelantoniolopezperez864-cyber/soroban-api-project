@@ -29,7 +29,9 @@ Además, se desarrolló una **API REST con Node.js (Express)** que permite consu
 - CLI Soroban / Stellar
 
 ---
-
+1. Clonar repositorio
+git clone https://github.com/angelantoniolopezperez864-cyber/soroban-api-project.git
+cd soroban-api-project
 ## 🧪 Funciones del Smart Contract
 
 ```rust
@@ -39,6 +41,8 @@ pub fn potencia(_env: Env, base: i32, exp: u32) -> i32
 
 
 
-1. Clonar repositorio
-git clone https://github.com/angelantoniolopezperez864-cyber/soroban-api-project.git
-cd soroban-api-project
+
+
+
+
+
