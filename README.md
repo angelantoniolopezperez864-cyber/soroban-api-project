@@ -77,7 +77,7 @@ Contrato desplegado:
 CCS6E6FGOF26SORMBEVKYHBWZCDNA4G5DXVJZDRIQRT4K2SK6VNMZF3R
 ```
 <img width="425" height="163" alt="image" src="https://github.com/user-attachments/assets/596591bc-e8de-4878-bb41-0a8fac3ec1f7" />
-```
+
 
 
 
@@ -101,9 +101,9 @@ GET /sumar?a=2&b=3
 GET /multiplicar?a=2&b=4
 Respuesta:
 { "resultado": "8" }
-```
+
 <img width="425" height="126" alt="image" src="https://github.com/user-attachments/assets/04ce9c4b-b1b0-4636-9ff2-27e3b1614803" />
-```
+
 
 
 
@@ -111,21 +111,21 @@ Respuesta:
 GET /potencia?base=3&exp=2
 Respuesta:
 { "resultado": "9" }
-```
+
 <img width="425" height="123" alt="image" src="https://github.com/user-attachments/assets/7c525202-6939-402c-9392-5c511d5dbd1b" />
-```
+
 
 
 
 Pruebas desde consola
 curl "http://localhost:3000/potencia?base=3&exp=2"
-```
+
 6. Evidencia en Testnet
 
 <img width="425" height="208" alt="image" src="https://github.com/user-attachments/assets/3e18f73e-a254-4c7f-ab8e-5d8cd7e1735c" />
 
 
-
+```
 7. Resultados
 ```
 La API respondió correctamente a todas las solicitudes realizadas, logrando una integración funcional entre el backend y el contrato inteligente desplegado.
